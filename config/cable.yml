@@ -1,0 +1,9 @@
+development:
+  adapter: async
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: <%= ENV["redis://rediscloud:v4SpDTGEpE9Ksukd@redis-16789.c11.us-east-1-3.ec2.cloud.redislabs.com:16789"] %>
